@@ -1,0 +1,106 @@
+.ui-body {
+    color: rgba(0,0,0,.76)!important;
+    fill: rgba(0,0,0,.76)!important;
+}
+.overlay-dialog {
+    margin: auto;
+    outline: 0;
+    overflow: hidden;
+    /* max-width: 580px; */
+    padding: 100px 5px;
+    animation: fade-in-pulse-08 .3s forwards cubic-bezier(.8,.02,.45,.91);
+}
+
+.overlay-content {
+    color: rgba(0,0,0,.68);
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+.button--close {
+    position: absolute;
+    top: 0;
+    right: 11%;
+    line-height: 1;
+    padding: 15px;
+    background: #fff;
+}
+
+.button--chromeless, .button--link {
+    border-width: 0;
+    text-align: left;
+    vertical-align: baseline;
+    white-space: normal;
+}
+
+.button--withSvgIcon .svgIcon {
+    top: -1px;
+    position: relative;
+}
+
+.button--chromeless .svgIcon, .button--link .svgIcon {
+    fill: rgba(0,0,0,.54);
+}
+
+.u-height200 {
+    height: 200px!important;
+}
+
+.u-height100 {
+    height: 100% !important;
+}
+
+.u-relative {
+    position: relative!important;
+}
+
+.button--withChrome {
+    height: 37px;
+    line-height: 37px;
+    padding: 0 16px;
+    border: 1px solid rgba(0,0,0,.15);
+    -webkit-border-radius: 99em;
+    border-radius: 99em;
+}
+
+.button, .button .svgIcon {
+    -webkit-transition: .1s background-color,.1s border-color,.1s color,.1s fill;
+    transition: .1s background-color,.1s border-color,.1s color,.1s fill;
+}
+
+.u-textColorWhite {
+    color: #fff!important;
+    fill: #fff!important;
+}
+
+.u-borderColorTransparentWhiteDark {
+    border-color: rgba(255,255,255,.65)!important;
+}
+
+.u-backgroundTransparentBlackDark {
+    background-color: rgba(0,0,0,.68)!important;
+}
+
+.u-left32Percent {
+    left: 32%!important;
+}
+
+.u-top42pct {
+    top: 28%!important;
+}
+
+.u-absolute {
+    position: absolute!important;
+}
+
+.publish {
+    font-weight: 400!important;
+    font-style: normal!important;
+    letter-spacing: 0!important;
+    font-size: 19px!important;
+    line-height: 24px!important;
+}
+
+.u-marginTop24 {
+    margin-top: 24px;
+}
